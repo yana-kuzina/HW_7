@@ -37,11 +37,6 @@ const createCalculator = (initialValue) => {
       return value;
     },
   };
-
-  return function (newValue) {
-    value = value + newValue;
-    return value;
-  };
 };
 
 const calc = createCalculator(10);
